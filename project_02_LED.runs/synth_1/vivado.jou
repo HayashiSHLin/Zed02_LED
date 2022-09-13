@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Sep 13 17:00:11 2022
+# Process ID: 283872
+# Current directory: D:/02_VIVADO/project_02_led/Zed02_LED/project_02_LED.runs/synth_1
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: D:/02_VIVADO/project_02_led/Zed02_LED/project_02_LED.runs/synth_1/top.vds
+# Journal file: D:/02_VIVADO/project_02_led/Zed02_LED/project_02_LED.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
