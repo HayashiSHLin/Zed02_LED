@@ -31,10 +31,10 @@ module top(
     reg [7:0]   led;
     always@(posedge clk or posedge reset)begin
         if(reset ) counter <= 0;
-        else   counter <= counter==32'd20000000 ? 0 : counter + 1'd1;
+        else   counter <= counter==32'd100000000 ? 0 : counter + 1'd1;
     end
     always@(posedge clk or posedge reset)begin
         if(reset ) led <= 8'h1;
-        else if(counter==32'd20000000) led <= led == 8'b1000_0000 ? 8'b00000001 : led <<1;
+        else if(counter==32'd100000000) led <= (led <<1)|(led>>7);
     end
 endmodule
